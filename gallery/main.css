@@ -77,7 +77,6 @@
 .text-wrapper {
     width: 900px;
     height: 300px;
-    background-color: wheat;
     margin: 6% auto;
 }
 
@@ -120,6 +119,7 @@
     height: 1156px;
     position: absolute;
     top: 100%;
+    overflow: hidden;
 }
 
 .fruit-cards-containers {
@@ -128,7 +128,6 @@
     flex-wrap: wrap;
     margin: 0% auto;
     display: flex;
-    overflow-y:hidden ;
 }
 
 .fruit-box{
@@ -194,8 +193,7 @@
     transform: translateY(150%);
     color: white;
     overflow-x: hidden;
-    position: relative;
-    top: 50%;
+
 }
 .text-areas {
     width: auto;
