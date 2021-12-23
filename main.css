@@ -98,7 +98,7 @@
 }
 .check {
     margin-top: 4em;
-    margin-left: 9em;
+    margin-left: 7em;
     padding: 10px 30px;
     background-color: #F28123;
     font-family: var(--poppins);
@@ -109,6 +109,7 @@
     color: white;
     cursor: pointer;
 }
+
 .check:hover {
     background-color: #051922;
     transition: all 1s;
@@ -126,18 +127,28 @@
     background-color: black;
     position: absolute;
     margin-left: 6.8em;
-    top: 30.5%;
+    top: 32.3%;
     opacity: 0.5;
 }
-.horiontal-line2 {
+.horiontal-line-bannan {
     width: 30px;
     height: 3px;
     background-color: black;
     position: absolute;
     margin-left: 6.8em;
-    top:80.5%;
-    opacity: 0.5;
-} 
+    top: 119.5%;
+    opacity: 0.3;
+}
+.horiontal-line-water{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    margin-left: 6.8em;
+    top: 74.5%;
+    opacity: 0.3;
+
+}
 
 .text-container {
     width: 40%;
@@ -247,6 +258,7 @@
     box-shadow: gray 5px 5px 20px;
     display: flex;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 .fruit-img {
@@ -297,9 +309,9 @@
 
 .contact-area {
     width: 100%;
-    height: 800px;
+    height: 600px;
     background-color: #051922;
-    transform: translateY(150%);
+    transform: translateY(280%);
     color: white;
     overflow-x: hidden;
 }
@@ -429,6 +441,7 @@
 }
 .list li {
     list-style: none;
+    margin-bottom: 10px;
 }
 .list span {
     padding-right: 20px;
@@ -497,10 +510,10 @@
 }
 
 .icon-place {
-    width: 40px;
-    height: 40px;
+    width: 51px;
+    height: 51px;
     background-color: #012738;
-    margin-top: 40px;
+    margin-top: 35px;
     margin-left: 10px;
     display: flex;
     justify-content: center;
