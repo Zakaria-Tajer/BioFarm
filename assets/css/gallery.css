@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    min-width: 100%;
+    height: 105px;
+    background-color: #66767e;
+    display: flex;
+    cursor: pointer;
+    
+}
+.logo {
+    flex: 0.3;
+
+}
+.logo img {
+    margin: 1em 20em;
+    transform: rotate(-20deg);
+}
+
+.links {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20em;
+}
+
+.links li {
+    margin-right: 3rem;
+    margin-left: 0rem;
+    list-style: none;
+}
+
+.links a {
+    font-family: var(--openSans);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover{
+    color: #F28123;
+}
+.icons {
+    margin-left: 16em;
+    display: flex;
+}
+.icons i {
+    margin-right: 2em;
+    color: white;
+}
+.icons i:hover {
+    color: #F28123;
+}
+
+.first-page {
+    width: 100%;
+    height: 709px;
+    background-color: #66767E;
+    position: absolute;
+}
+
+.text-wrapper {
+    width: 900px;
+    height: 300px;
+    margin: 6% auto;
+}
+
+.text-wrapper h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #F28123;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-right: 60px;
+}
+
+.text-wrapper h1 {
+    font-size: 64px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    width: 820px;
+    text-align: center;
+
+}
+.fruit-box {
+    position: relative;
+    background-color: black;
+    margin: 0;
+    top: 20px;
+    animation: 20s fruit-cards-containers infinite;
+}
+@keyframes fruit-cards-containers {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -80%;
+    }
+    60% {
+        left: -180%;
+    }
+    80% {
+        left: 5%;
+    }
+}
+
+.fruit-cards {
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 100%;
+    overflow-y: hidden;
+}
+
+.fruit-cards-containers {
+    width: 1200px;
+    height:900px;
+    flex-wrap: nowrap;
+    margin: 5% auto;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.fruit-box{
+    min-width: 350px;
+    max-width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: gray 5px 5px 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.fruit-img {
+    margin-left: 2.5em;
+}
+
+.strawberry{
+    font-size: 20px;
+}
+.prices {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #555555;
+}
+.add-to-cart {
+    margin-top: 30px;
+    padding: 20px 35px;
+    border-radius: 25px;
+    border: none;
+    outline:none;
+    background-color:#F28123;
+    color: white;
+    cursor:pointer;
+}
+.prices h3 {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.added {
+    margin-left: 20px;
+}
+.add-to-cart:hover {
+    background-color: #051922;
+    transition: ease-in-out 1s;
+}
+.fruit-box:hover {
+    opacity: 0.9;
+}
+.prices i {
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 50px;
+   width: 15px;
+   height: 15px;
+   color: white;
+}
+.horiontal-line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    margin-left: 6.8em;
+    top: 70.5%;
+    opacity: 0.3;
+}
+.horiontal-line-water {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    margin-left: 6.8em;
+    top: 70.5%;
+    opacity: 0.3;
+}
+.contact-area {
+    width: 100%;
+    height: 600px;
+    background-color: #051922;
+    transform: translateY(150%);
+    color: white;
+    overflow-x: hidden;
+    transform: translateY(280%);
+}
+.text-areas {
+    width: auto;
+    height: 300px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+
+.contacts {
+    width: 400px;
+    position: absolute;
+    height: 300px;
+
+}
+.contacts h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.line {
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(-55%);
+    margin-top: 10px;
+    background-color: #F28123;
+}
+.contacts p {
+    margin-left: 35%;
+    margin-top: 20px;
+
+    color: #F2F1F1; 
+    opacity: 0.9;
+    /*  */
+}
+/* /Second cardd */
+.contacts1 {
+    width: 400px;
+    position: absolute;
+    height: 300px;
+    left: 21%;
+}
+.contacts1 h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.contacts1 p {
+    margin-left: 35%;
+    margin-top: 20px;
+
+    color: #F2F1F1; 
+    opacity: 0.9;
+    /*  */
+}
+.line1 {
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(-100%);
+    margin-top: 10px;
+    background-color: #F28123;
+}
+.contacts1 h3 {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* #F2F1F1 */
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 6em;
+    color: #F2F1F1; 
+    opacity: 0.9;
+}
+.contacts1 p {
+    transform: translateX(-10%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.phone {
+    position: relative;
+    bottom: 20px;
+}
+
+.pages {
+    width: 400px;
+    position: absolute;
+    height: 300px;
+    left: 42%;
+}
+.pages h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.line3 {
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(-20%);
+    margin-top: 10px;
+    background-color: #F28123;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10em;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+.list li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.list span {
+    padding-right: 20px;
+    color: #F28123;
+    font-weight: bold;
+    
+}
+.list a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #F2F1F1; 
+    opacity: 0.9;
+}
+
+.subscribe {
+    width: 400px;
+    position: absolute;
+    height: 300px;
+    left: 63%;
+}
+.subscribe h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.line4 {
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(-60%);
+    margin-top: 10px;
+    background-color: #F28123;
+}
+
+.subscribe p {
+    width: 250px;
+    margin-left: 10em;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #F2F1F1; 
+    opacity: 0.9;
+
+}
+.input-field{
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10em;
+    background-color: #012738;
+    border: none;
+}
+
+.subscribe input[type=email]{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #F2F1F1; 
+    opacity: 0.9;
+    font-weight: 400;  
+}
+
+.icon-place {
+    min-width: 51px;
+    height: 51px;
+    background-color: #012738;
+    margin-left: 10px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-place i{
+    color:#F28123;
+}
+.comp {
+    display: flex;
+}
+.long-line {
+    width: 100%;
+    height: 3px;
+    background-color: #807575;
+    position: absolute;
+    bottom:80px;
+    display: flex;
+}
+.wrapping {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 8%;
+    opacity: 0.7;
+}
+
+.wrapping h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.wrapping h3 {
+    color: #F28123;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.wrapping .rights{
+    color: white;
+}
+.social-icons {
+    width:90%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+
+}
+.social-icons i {
+   margin-right: 1em;
+}
